@@ -1,0 +1,9 @@
+{
+  "app_id": "ros-usbcamera",
+  "app_server_id": 1180,
+  "short_description": "USB camera works on ROS",
+  "short_descriptions": {},
+  "target_types": [
+    "raspberrypi-bookworm"
+  ]
+}

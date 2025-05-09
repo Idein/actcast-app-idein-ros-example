@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "target_type": "raspberrypi-bookworm",
+  "boards": [
+    "RSPi4B"
+  ],
+  "devices": [
+    {
+      "type": "camera"
+    },
+    {
+      "type": "videocore"
+    }
+  ]
+}
