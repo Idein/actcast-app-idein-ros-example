@@ -6,6 +6,7 @@
   ],
   "pip": [],
   "raspberrypi-bookworm": {
+    "base_image": "my_camera_project-ros2_cam",
     "apt": [
     ],
     "pip": [

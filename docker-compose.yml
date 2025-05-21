@@ -1,0 +1,12 @@
+services:
+  ros2_cam:
+    build: .
+    # devices:
+    #   - "/dev/video2:/dev/video2"
+    volumes:
+      - ./ros2_ws:/ros2_ws
+      - ./images:/images
+      - ${PWD}/:/work
+    # environment:
+    #   - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    # command: /entrypoint.sh
