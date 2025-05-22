@@ -1,13 +1,12 @@
 {
-  "apt": [
-    "python3",
-    "libv4l-0",
-    "libv4lconvert0"
-  ],
+  "apt": [],
   "pip": [],
   "raspberrypi-bookworm": {
-    "base_image": "my_camera_project-ros2_cam",
+    "base_image": "actcast-app-idein-ros-example-ros2_cam",
     "apt": [
+      "python3",
+      "libv4l-0",
+      "libv4lconvert0"
     ],
     "pip": [
       "actfw-raspberrypi",
