@@ -17,7 +17,7 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         # print(f"Received: '{msg.data}'")
-        actfw_core.notify([{"message": {msg.data}}])
+        actfw_core.notify([{"message": msg.data}])
 
 
 def main(args=None):
