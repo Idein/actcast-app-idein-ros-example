@@ -1,16 +1,11 @@
 {
-  "apt": [
-    "python3",
-    "libv4l-0",
-    "libv4lconvert0"
-  ],
+  "apt": [],
   "pip": [],
   "raspberrypi-bookworm": {
-    "apt": [
-    ],
+    "base_image": "actcast-app-idein-ros-example-ros2_app",
+    "apt": [],
     "pip": [
-      "actfw-raspberrypi",
-      "numpy"
+      "actfw-raspberrypi"
     ]
   }
 }

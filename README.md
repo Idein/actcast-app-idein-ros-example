@@ -1,10 +1,10 @@
-# Usbcamera
+# ROS 2 Sample App
 
 ※このサンプルアプリケーションはActcastOS 4にのみ対応しています
 
 ## 概要
 
-V4LCameraCaptureを使用し、ActのFPSをAct Logに出力するサンプルアプリです。
+demo_nodes_py talkerを起動し、そのメッセージを受け取って出力するアプリです。
 
 ## 前提
 

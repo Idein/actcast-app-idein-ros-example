@@ -1,0 +1,5 @@
+services:
+  ros2_app:
+    build: .
+    volumes:
+      - ${PWD}/:/work

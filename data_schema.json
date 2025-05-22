@@ -1,13 +1,12 @@
-
 {
   "$schema": "https://actcast.io/schema/v8/data_schema_schema.json",
   "type": "array",
   "items": {
     "type": "object",
     "properties": {
-      "fps": {
-        "title": "FPS",
-        "description": "Frames per second",
+      "message": {
+        "title": "ROS 2 message",
+        "description": "message published by demo_nodes_py",
         "type": "string"
       }
     },
