@@ -4,12 +4,5 @@
   "boards": [
     "RSPi4B"
   ],
-  "devices": [
-    {
-      "type": "camera"
-    },
-    {
-      "type": "videocore"
-    }
-  ]
+  "devices": []
 }
