@@ -16,8 +16,8 @@ class MinimalSubscriber(Node):
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
-        # print(f"Received: '{msg.data}'")
         actfw_core.notify([{"message": msg.data}])
+        actfw_core.heartbeat()
 
 
 def main(args=None):
